@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #292929;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.parent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+
+button {
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  padding: 5px 15px;
+  background-color: #7f39fb;
+  color: white;
+}
+
+button:hover {
+  background-color: #bc86fd;
+  color: #000;
+}
+
+
+.parent .box{
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+    
+
+}

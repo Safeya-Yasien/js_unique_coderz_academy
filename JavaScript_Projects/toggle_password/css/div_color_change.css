@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.parent {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  background-color: #292929;
+  padding: 20px;
+}
+
+.parent input {
+  outline: none;
+  padding: 5px 10px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 5px 15px;
+  background-color: #f9ae37;
+  color: #000;
+}
