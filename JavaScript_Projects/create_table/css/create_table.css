@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+input {
+  padding: 5px 10px;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  padding: 5px 15px;
+  background-color: #11101d;
+  color: white;
+  margin: 20px auto;
+  display: block;
+}
+
+table,
+td {
+  border: 1px solid;
+}
