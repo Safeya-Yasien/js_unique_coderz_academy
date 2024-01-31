@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/make_gallery.css" />
+    <title>Project 7 Make Gallery</title>
+  </head>
+  <body>
+    <div class="gallery">
+      <div class="imgs">
+        <img
+          onmouseover="preview.src = img1.src"
+          src="imgs/img_lights.jpg"
+          name="img1"
+        />
+        <img
+          onmouseover="preview.src = img2.src"
+          src="imgs/img_mountains.jpg"
+          name="img2"
+        />
+        <img
+          onmouseover="preview.src = img3.src"
+          src="imgs/img_nature.jpg"
+          name="img3"
+        />
+        <img
+          onmouseover="preview.src = img4.src"
+          src="imgs/img_snow.jpg"
+          name="img4"
+        />
+      </div>
+      <div class="preview">
+        <img src="imgs/img_lights.jpg" name="preview" />
+      </div>
+    </div>
+    <script src="js/make_gallery.js"></script>
+  </body>
+</html>

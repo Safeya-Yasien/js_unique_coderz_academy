@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 50px auto;
+}
+
+.container div {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #000;
+}
+
+.container .div-1 {
+  background-color: #010001;
+}
+
+.container .div-2 {
+  background-color: #aaaaaa;
+}
+
+.container .div-3 {
+  background-color: #982d6b;
+}
+
+.container .div-4 {
+  background-color: #f9ae37;
+}
+
+.container .div-5 {
+  background-color: #fff;
+}
